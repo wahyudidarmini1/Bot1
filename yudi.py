@@ -5,22 +5,29 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
-cl = LINETCR.LINE()
+cl = LINETCR.LINE() #Luffy
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE()
+ki = LINETCR.LINE() #Zorro
 ki.login(qr=True)
 ki.loginResult()
 
-ki2 = LINETCR.LINE()
-ki2.login(qr=True)
-ki2.loginResult()
+kk = LINETCR.LINE() #Sanji
+kk.login(qr=True)
+kk.loginResult()
+
+kc = LINETCR.LINE() #Ussop
+kc.login(qr=True)
+kc.loginResult()
+
+ks = LINETCR.LINE() #Chooper
+ks.login(qr=True)
+ks.loginResult()
 
 print "login success plak"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-
 helpMessage ="""╔═════════════
 ║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓
 ║       ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰
