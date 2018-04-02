@@ -5,23 +5,23 @@
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
-cl = LINETCR.LINE() #YUDI
+#cl = LINETCR.LINE() #YUDI
 cl.login(token="ErPOUD2ZsudAUOeNKdn2.AZs3a8Vf+ipnhLTOmQbtuG.z7aERkHNm0lzd12vtvyArlnVuUppMtGDy54r9LWhlNU=")
 cl.loginResult()
 
-ki = LINETCR.LINE() #GITO
+#ki = LINETCR.LINE() #GITO
 ki.login(token="ErQS0QFIG8Nk1q2is1jc.6mZHYoaLrB6ZemDONQ/Mha.633Gg15t8V1KeJ593nxiSqmPOl5WQDpqap2IELgUP30=")
 ki.loginResult()
 
-kk = LINETCR.LINE() #ADAM
+#kk = LINETCR.LINE() #ADAM
 kk.login(token="ErZH0FqlXLXup9szxVp2.SOI7MV+GPU//ng7dyQOwmG.oFTEWafd+Ec21ujVSLPAnQDTO4zl6r+2LDBqH8wAa/Y=")
 kk.loginResult()
 
-kc = LINETCR.LINE() #Ussop
+#kc = LINETCR.LINE() #Ussop
 kc.login(token="ErMULLuwxS1dWLCQYZoe.4uWnRTJU51yT+/CjXTyHBG.guziOKyKwMExq5aNy59YVAb3cF+GDeTehTxccXPam/Q=")
 kc.loginResult()
 
-ks = LINETCR.LINE() #Chooper
+#ks = LINETCR.LINE() #Chooper
 ks.login(token="ErsyfMMhqa90owCPDac3.eXGEKA8y87MQtoFvPFGwuW.HctCPDxEwZSXYEXwG6XrG6+LdEfTdgknrKy/M/037XQ=")
 ks.loginResult()
 
