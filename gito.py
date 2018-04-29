@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="ErQS0QFIG8Nk1q2is1jc.6mZHYoaLrB6ZemDONQ/Mha.633Gg15t8V1KeJ593nxiSqmPOl5WQDpqap2IELgUP30=")
+cl.login(token="Es5zGnez6hEQzt6wdFQ2.AZs3a8Vf+ipnhLTOmQbtuG.+HmAXy7D4P9x25rdSQau6ZL468ni3Wa3234TCISJ62A=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="ErZH0FqlXLXup9szxVp2.SOI7MV+GPU//ng7dyQOwmG.oFTEWafd+Ec21ujVSLPAnQDTO4zl6r+2LDBqH8wAa/Y=")
+ki.login(token="Esz7X6PLOFaoxbNW1Mce.4uWnRTJU51yT+/CjXTyHBG.79TGK9+Vw7nNlR01aB46+Cz88L8Qjvft+LTJ4W2/dKg=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="ErMULLuwxS1dWLCQYZoe.4uWnRTJU51yT+/CjXTyHBG.guziOKyKwMExq5aNy59YVAb3cF+GDeTehTxccXPam/Q=")
+ki2.login(token="EsNCZzJILnhpAWZglamb.drkXjI9kC7gz45kx2rUb2W.ULYBO74xVryLmSGAtBok2+4vqyMJ9Lfjkqz/0P7yTXQ=")
 ki2.loginResult()
 
 print "login success plak"
@@ -23,7 +23,7 @@ sys.setdefaultencoding('utf-8')
 
 helpMessage ="""╔═════════════
 ║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓
-║       ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰
+║       ✰WONG-JOMBANG✰
 ║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓
 ║╔════════════
 ║╠[1]Status
@@ -63,12 +63,12 @@ helpMessage ="""╔═════════════
 ║║★And More★
 ║╚════════════
 ║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓
-║     ૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮
+║     WONG-JOMBANG
 ║𖤓≛≛≛≛≛≛≛≛≛≛≛≛≛𖤓
 ╚═════════════"""
 
 Setgroup =""" 
-    ૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮"""
+    WONG-JOMBANG"""
 KAC=[cl,ki,ki2]
 mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
@@ -85,7 +85,7 @@ wait = {
     'autoAdd':True,
     'message':"""тerima Kasih Sudah Menambahkan Aku Jadi Teman
 ≫ Aku Ga Jawab PM Karna aq Cuma Bot ≪
-≫ ૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮ ≪
+≫ WONG-JOMBANG ≪
 
 Ready:
 
@@ -95,7 +95,7 @@ Ready:
 
 ṡȗƿƿȏяṭєԀ ɞʏ:
   
-☆ ૦Ո૯ ƿɿ૯८૯ ੮૯คɱ ☆""",
+☆ WONG-JOMBANG☆""",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
@@ -563,7 +563,7 @@ def bot(op):
                   cl.sendText(msg.to,"The stafflist is empty")
               else:
                   cl.sendText(msg.to,"Tunggu...")
-                  mc = "||Admin ૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮||\n=====================\n"
+                  mc = "||Admin WONG-JOMBANG||\n=====================\n"
                   for mi_d in admin:
                       mc += "••>" +cl.getContact(mi_d).displayName + "\n"
                   cl.sendText(msg.to,mc)
@@ -1311,7 +1311,7 @@ def bot(op):
                 if wait["autoAdd"] == True: md+="[•]Auto Add [On]\n"
                 else:md+="[•]Auto Add [Off]\n"
                 if wait["commentOn"] == True: md+="[•]Comment [On]\n"
-                else:md+="[•]Comment [Off]\n*============*\n✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰\n*============*"
+                else:md+="[•]Comment [Off]\n*============*\n✰WONG-JOMBANG✰\n*============*"
                 cl.sendText(msg.to,md)
             elif msg.text in ["Group id","Ginfo"]:
                 gid = cl.getGroupIdsJoined()
@@ -1560,9 +1560,9 @@ def bot(op):
                                 #print rom
                                 chiya += rom[1] + "\n"
 
-                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
+                        cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : ✰WONG-JOMBANG✰||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        cl.sendText(msg.to, "Ketik Cctv dulu Koplak\nBaru Ketik Ciduk\nDASAR PIKUN ♪")
+                        cl.sendText(msg.to, "Ketik Cctv")
 #-----------------------------------------------
 
 #-----------------------------------------------
@@ -2118,7 +2118,7 @@ def autolike():
       if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
         try:
           cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉Auto Like by ⭐⭐Koplaxs⭐⭐👈\n\n™By ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰")
+          cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉Auto Like by ⭐⭐۝♐IssC_WAhyuDi♐۝⭐⭐👈\n\n™By ✰WONG-JOMBANG✰")
           ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
           ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Aku Juga Ikutin Boss Aku Like Status Kamu Ka\n\n Like Back yah Ka 😊")
           ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
@@ -2142,8 +2142,8 @@ def likePost():
                     cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     ki.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
                     ki2.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ^૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮^\nStatus Boss udah Kami Like\nOwner Kami :\nKoplaxs")
-                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId']," ✰૦Ո૯ ƿɿ૯८૯ ら૯ՆԲც૦੮✰")
+                    cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto like by ^WONG-JOMBANG^\nStatus Boss udah Kami Like\nOwner Kami :\n۝♐IssC_WAhyuDi♐۝")
+                    ki.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId']," ✰WONG-JOMBANG✰")
                     print "Like"
                 except:
                     pass
