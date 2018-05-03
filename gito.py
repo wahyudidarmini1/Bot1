@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(token="Es5zGnez6hEQzt6wdFQ2.AZs3a8Vf+ipnhLTOmQbtuG.+HmAXy7D4P9x25rdSQau6ZL468ni3Wa3234TCISJ62A=")
+cl.login(token="EsChWMepSb9lKr6nS9i4./0DOo/10A+PUJG8iHA76Pa.9WT1pKEmje7MEZT/bcAcwS88hnqZnZ9b7LWIwv16eQE=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Esz7X6PLOFaoxbNW1Mce.4uWnRTJU51yT+/CjXTyHBG.79TGK9+Vw7nNlR01aB46+Cz88L8Qjvft+LTJ4W2/dKg=")
+ki.login(token="EsdEUHmcmXmC1Ehy7SF8.BQIP++PfVBkYt2USSm1tMa.fgJ1idwHPIeOEgCucm1eGbhPIAaXD6OF6uNCq2QaHhg=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="EsNCZzJILnhpAWZglamb.drkXjI9kC7gz45kx2rUb2W.ULYBO74xVryLmSGAtBok2+4vqyMJ9Lfjkqz/0P7yTXQ=")
+ki2.login(token="EsGF8Z87SWaHW2URVvh4.bOiJimUzjLhiapSWdVjeva.UsxdGxVB3rBZP8mZckDG+SlGkNfcfJEgWb6VGIX8lyI=")
 ki2.loginResult()
 
 print "login success plak"
@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =["u6b34b703cbc5fc83cd1e5b6832a05352"]
-admin = ["u6b34b703cbc5fc83cd1e5b6832a05352"]
+owner =["ufb47683bed746bfa6e8e0f0885aefaa4"]
+admin = ["ufb47683bed746bfa6e8e0f0885aefaa4"]
 wait = {
     'contact':False,
     'autoJoin':True,
